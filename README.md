@@ -16,7 +16,7 @@
 3. Create a file: ~/app/install/.env
 ```
 DB_DRIVER=mysql
-DB_HOST=
+DB_HOST=localhost
 DB_NAME=mysql
 DB_USER=
 DB_PASS=
