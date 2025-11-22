@@ -1,0 +1,348 @@
+/* LOGO  */
+.navbar-brand>a>img {
+    height: 45px;
+}
+.navbar-brand {
+    -webkit-animation: img-fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: img-fadein 6s; /* Firefox < 16 */
+        -ms-animation: img-fadein 6s; /* Internet Explorer */
+         -o-animation: img-fadein 6s; /* Opera < 12.1 */
+            animation: img-fadein 6s;
+}
+/* FONTS  */
+.font-cmu {
+    font-family: 'CMU';
+}
+.font-cmu-b {
+    font-family: 'CMU Bold';
+}
+.font-cmu-bi {
+    font-family: 'CMU Bold Italic';
+}
+.font-cmu-i {
+    font-family: 'CMU Italic';
+}
+.font-cmu-l {
+    font-family: 'CMU Light';
+}
+.font-cmu-li {
+    font-family: 'CMU Light Italic';
+}
+.font-prompt {
+    font-family: 'Prompt Regular';
+}
+/* MAIN MENUS */
+.navbar-expand-lg .mega-menu-img .mega-menu-content.app-mega-menu-custom {
+    margin:20px 0 10px 0!important;
+}
+.offcanvas {
+    font-family: 'Prompt Regular';
+}
+.offcanvas .navbar-nav .nav-item .nav-link font {
+    font-size: 22px;
+    line-height: 22px;
+}
+.offcanvas .navbar-nav .app-mega-menu-custom .row>.col>.dropdown-item>span {
+    padding: 0 4px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.offcanvas.show .navbar-nav .app-mega-menu-custom .row>.col.active>.dropdown-item>span {
+    color: #1e2228;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: white;
+}
+/* USER PROFILE */
+.profile-box {
+    width:45px;
+    height:45px;
+    cursor:pointer;
+    overflow:hidden;
+    background:white;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.profile-box>img {
+    width: 100%;
+}
+.profile-picture {
+    width:52px;
+    height:52px;
+    float:left;
+    overflow:hidden;
+    margin-right:5px;
+    border:1px solid #e8ecf2;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.profile-picture>img {
+    width: 100%;
+}
+.avatar-box,
+.profile-box {
+    -webkit-animation: img-fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: img-fadein 6s; /* Firefox < 16 */
+        -ms-animation: img-fadein 6s; /* Internet Explorer */
+         -o-animation: img-fadein 6s; /* Opera < 12.1 */
+            animation: img-fadein 6s;
+}
+#offcanvas-profile .card-open-link {
+    cursor: pointer;
+    text-align:left;
+}
+#offcanvas-profile .card-open-link .btn {
+    color: white;
+    background-color: #1950d8;
+}
+#offcanvas-profile .card-open-link:hover .btn {
+    color: white;
+    background-color: #142275;
+}
+#offcanvas-profile .card-open-link:hover {
+    background-color: #e9eaf8!important;
+}
+#offcanvas-profile .card-open-link p,
+#offcanvas-profile .card-open-link h4 {
+    color: white!important;
+}
+#offcanvas-profile .card-open-link:hover p,
+#offcanvas-profile .card-open-link:hover h4 {
+    color: #142275!important;
+}
+#offcanvas-profile .card-open-link.warning {
+    background-color: #f78b77!important;
+}
+#offcanvas-profile .card-open-link.warning .btn {
+    color: white;
+    background-color: #f78b77;
+}
+#offcanvas-profile .card-open-link.warning:hover .btn {
+    color: white;
+    background-color: #f78b77;
+}
+#offcanvas-profile .card-open-link.warning:hover {
+    background-color: #feece9!important;
+}
+#offcanvas-profile .card-open-link.warning:hover p,
+#offcanvas-profile .card-open-link.warning:hover h4 {
+    color: #f78b77!important;
+}
+/* FROM MANAGE */
+.form-manage .form-select {
+    color: #60697c;
+    font-weight: normal;
+}
+.form-manage .form-check input[type='radio'] {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    margin-top: 0rem;
+    box-shadow: 0rem 0rem 1.25rem rgba(30, 34, 40, 0.20);
+}
+.form-manage .form-check input[type='checkbox'] {
+    width: 24px;
+    height: 24px;
+    margin-top: 0.1rem;
+    box-shadow: 0rem 0rem 1.25rem rgba(30, 34, 40, 0.20);
+}
+.form-manage .form-control {
+    font-weight: normal;
+}
+.form-manage .form-check .form-check-label {
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+.form-manage .form-check .form-check-label span {
+    font-size: 0.75rem;
+    padding-left: 5px;
+}
+.modal-manage .modal-header {
+    display: block;
+    min-height: 75px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.modal-manage .modal-header .btn-close {
+    top: 1.2rem;
+    right: 1.2rem;
+}
+.modal-manage .modal-body {
+    padding-top:0;
+    padding-bottom:0;
+}
+.modal-manage .modal-footer {
+    display: block;
+    min-height: 130px;
+    padding-top:25px;
+    padding-bottom:20px;
+}
+.modal-manage .modal-footer .confirm-box .btn {
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.modal-manage .modal-footer .row-button>div {
+    float: none;
+    width: 50%;
+}
+.modal-imageviewer {
+    padding: 15px 15px 0 15px !important;
+}
+.modal-imageviewer .modal-dialog {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.modal-imageviewer .modal-dialog .modal-content {
+    width:100%;
+    height: auto;
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    padding-bottom: 10px;
+    background: none !important;
+}
+.modal-imageviewer .modal-dialog .modal-content img {
+    max-width:100%;
+    display:flex;
+    margin:auto;
+    border:1px solid #00000099;
+    box-shadow:0 0 20px #000000;
+}
+.modal-imageviewer .i-save {
+    width: 100px;
+    color: white;
+    display: none;
+    padding: 5px 0 5px 5px;
+    cursor: pointer;
+    letter-spacing:-1.5px;
+    background-color: #00000099;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+}
+.modal-imageviewer .i-save>a {
+    color: white;
+}
+.modal-imageviewer .i-save>a:hover {
+    color: #00bcd4;
+}
+.modal-imageviewer .i-close {
+    width: 100px;
+    color: white;
+    display: inline-block;
+    padding: 5px 0;
+    cursor: pointer;
+    background-color: #00000099;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+}
+.modal-imageviewer .i-close:hover {
+    color: red;
+}
+.modal-imageviewer .download .i-save {
+    display: inline-block;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+}
+.modal-imageviewer .download .i-close {
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+}
+/* TEST UTILITY */
+.on-text-oneline {
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.on-text-display {
+    height: auto !important;
+    min-height: 52px;
+}
+.on-text-display.readonly {
+    background-color: #f6f7f9;
+}
+.on-text-normal {
+    font-weight: normal;
+}
+.on-text-normal-i {
+    font-style: italic;
+    font-weight: normal;
+}
+.on-text-i {
+    font-style: italic;
+}
+/* UTILITY  */
+.run-start {
+    width: 50% !important;
+    height: 50% !important;
+    background: url('../img/wait-loading.gif') no-repeat center center !important;
+    background-size: contain !important;
+}
+.on-blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes img-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/*.navbar-stick {
+    
+}*/
+/* FOOTER  */
+footer .copyright>img {
+    height: 48px;
+    margin: -32px 0 10px 0;
+}
+footer .widget-title {
+    font-size: 18px;
+}
+footer .footer-info {
+    font-size: 14px;
+}
+@media only all and (max-width: 475px) {
+    .navbar-brand>a>img {
+        height: 36px;
+    }
+}
+@media only all and (max-width: 414px) {
+    .navbar-brand>a>img {
+        width: 100%;
+        height:auto;
+    }
+}
+@media only all and (max-width: 375px) {
+    footer .copyright>img {
+        width: 100%;
+        height: auto!important;
+    }
+    footer .footer-info {
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow:ellipsis;
+    }
+}
