@@ -4,7 +4,7 @@
     require_once('app/start.php');
     $url = new URL($_GET);
     if( $url->getController() ){
-        $class = $url->getController();
+        $class = ucfirst($url->getController());
         require_once(APP_ROOT.'/app/controllers/'.$class.'.php');
         new $class($url->getView(), $url->getParameters());
     }else{
