@@ -123,6 +123,22 @@ class Login extends Controller {
             $this->render('login/local');
         }else{
             echo "signingoogle";
+            /*include_once(APP_ROOT."/app/classes/google.class.php");
+            include_once(APP_ROOT."/app/classes/googleinfo.class.php");
+            $signin = new Google();
+            $signin->setCallbackUri(APP_HOME.'/login/signingoogle');
+            $signin->setScope('https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile');
+            if( isset($_GET['code'])&&!empty($_GET['code']) ){
+                $code = $_GET['code'];
+                $codecheck = $signin->getAccessTokenAuthCode($code);
+                if( isset($codecheck->access_token)&&!empty($codecheck->access_token) ){
+                    $info = new Googleinfo();
+                    $infocheck = $info->getBasicinfo($codecheck->access_token);
+                    Helper::debug($infocheck);
+                }
+            }else{
+                $signin->initGoogle();
+            }*/
         }
     }
 
